@@ -1,0 +1,18 @@
+/*This applies to all paragraphs!*/
+p {
+  color:red;
+  font-size:11pt;
+  margin-left:15pt;
+}
+
+/*This only applies to element with Id 'paraId'!*/
+#para1 {
+  color:yellow;
+}
+
+/*This applies to all elements that belong to the "Centre" class*/
+.Centre {
+  font-size:15pt;
+  color:purple;
+  text-align:center;
+}
