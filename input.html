@@ -5,9 +5,19 @@
     <title></title>
   </head>
   <body>
-    <form action="">
+    <form action="" method="get">
       Username: <input type="text" name="firstName"/><br/>
-      Password: <input type="password" name="password">
+      Password: <input type="password" name="password"/><br/>
+      <input type="radio" name="gender" value="male" /> Male<br/>
+      <input type="radio" name="gender" value="female" /> Female<br/>
+      <input type="checkbox" name="vehicle" value="Bike" /> I have a bike<br/>
+      <input type="checkbox" name="vehicle" value="Car" /> I have a car<br/>
+      <select name="Cars">
+        <option value="volvo">Volvo</option>
+        <option value="Wv">Wv</option>
+      </select>
+      <input type="submit" value="Submit"/> <!--This always calls the method specified in the form declaration on the class/target
+                                                specified in the action (does a GET on "" passing the form's input-->
     </form>
   </body>
 </html>
